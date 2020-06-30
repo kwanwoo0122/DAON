@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: none;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  position: fixed;
+  height: 130px;
+  width: 100vw;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100vw;
+  height: 100%;
+  margin: 3vw;
+}
+
+.nav--logo-img {
+  width: 100%;
+}
+
+.nav--items {
+  margin: 20px;
+  font-size: 1.4em;
+}
+
+.quick-menu {
+  position: fixed;
+  top: 50%;
+  right: 7%;
+  z-index: 100;
+  transform: translateY(-50%);
+}
+
+.quick-img {
+  margin-bottom: 10px;
+}
+
+.main {}
+
+.slider {
+  position: relative;
+}
+
+.carousel-container {
+  width: 100vw;
+  height: 800px;
+  margin-top: 130px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+}
+
+.slider--img {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+}
+
+.slider--text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10vw;
+  z-index: 10;
+  color: white;
+}
+
+.slider--text__1 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.slider--text__2 {
+  font-size: 4em;
+  padding-bottom: 10px;
+}
+
+.slider--text__3 {
+  font-size: 2em;
+}
+
+.slider--scroll-down {
+  position: absolute;
+  bottom: 60px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 120px 0;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 1400px;
+}
+
+.intro--main {
+  width: 50%;
+  text-align: center;
+}
+
+.intro--text {
+  margin-top: 60px;
+  font-size: 30px;
+  line-height: 43px;
+}
+
+.intro--text__pc {
+  display: inline;
+}
+
+.intro--text__mobile {
+  display: none;
+}
+
+.intro--history {
+  width: 50%;
+  font-size: 40px;
+  height: 100%;
+}
+
+.intro--history__text-size {
+  font-size: 30px;
+}
+
+.intro--history-list {
+  margin-top: 20px;
+}
+
+.intro--history__list {
+  font-size: 18px;
+  line-height: 28px;
+  list-style: inside;
+}
+
+.intro--history__box {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
+  height: 36px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.clinic {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clinic--img {
+  width: 50vw;
+  position: relative;
+}
+
+.clinic--img__text {
+  position: absolute;
+  color: white;
+  top: 15%;
+  left: 40%;
+}
+
+.clinic--img__text-list {
+  position: absolute;
+  color: white;
+  bottom: 15%;
+  left: 40%;
+}
+
+.clinic-content {
+  position: relative;
+  width: 50vw;
+  height: 740px;
+  background-color: #f2f5f5;
+
+}
+
+.clinic-content--img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #303030;
+  color: #989898;
+  height: 350px;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 80vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.footer-img {
+  position: absolute;
+  left: 10%;
+}
+
+.footer--top-img {
+  position: absolute;
+  right: 10%;
+}
+
+.footer-text {
+  font-size: 18px;
+  text-align: center;
+}
